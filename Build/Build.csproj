@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>Start-Windsurf</AssemblyName>
+    <AssemblyName>Start-DevinDesktop</AssemblyName>
     <ApplicationIcon></ApplicationIcon>
     <OutputType>WinExe</OutputType>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="..\Start-Windsurf.ps1">
+    <EmbeddedResource Include="..\Start-DevinDesktop.ps1">
         <LogicalName>Script.ps1</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
